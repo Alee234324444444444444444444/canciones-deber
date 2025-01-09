@@ -22,4 +22,4 @@ LEVANTAMOS EL SERVIDOR CON:
 npm run dev
 ~~~
 
-LINK: http://localhost:300
+LINK: http://localhost:3000
