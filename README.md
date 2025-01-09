@@ -1,32 +1,22 @@
-# music-recomendation
-Este proyecto es una plataforma interactiva diseñada para gestionar canciones de manera sencilla y eficiente. Los usuarios pueden agregar nuevas canciones, votar por sus favoritas, obtener una canción aleatoria para descubrir música de forma divertida, y eliminar canciones si lo desean. Además, la interfaz cuenta con un diseño moderno, intuitivo y responsivo, que se adapta a cualquier dispositivo. El objetivo principal de este proyecto es proporcionar una experiencia amigable para los usuarios mientras exploran, organizan y disfrutan de su música favorita. Está desarrollado utilizando Node.js, Express, y JavaScript para el backend y MongoDb para la base de datos, junto con un diseño atractivo basado en CSS avanzado para el frontend.
+RECOMENDACION DE MUSICA Esta api de musica nos permite registrar una musica de youtube lo primero que debemos hacer es es el formulario de nombre del artista, nombre de la musica y el url de la musica luego de registrar vamos y presionamos el boton aleatorio eso se va a filtrar una musica aleatoriment y por ultimo en la pestaña de canciones reguistradas ahi esta la lista de canciones registradas este tambien nos permite hacer votos ver la musica y eliminar la cancion en esta api se utlizo HTML y CSS para el FRONT END Y PARA EL BACK EDN JS y como base datos utilizamos MONGODB.
 
-## Clonar repositorio
-~
-git clone https://github.com/AlexanderPavon/music-recomendation.git
-~
+LA BD EN MONGO SE LLAMA "musica"
 
-## Dirigirse a la ruta
-~
-cd .\music-recomendation\server\
- ~
- 
-## Instalación 
-~
+##PRIMERO NOS CLONAMOS: ~~ git clone https://github.com/Alee234324444444444444444444/canciones-deber.git ~~
+
+##VAMOS A CD SERVER:
+~~~
+cd .\server
+~~~
+
+##INSTALAMOS LOS REQUERIMIENTOS:
+~~~
 npm install express mongoose cors
-~
+~~~
 
-## Levantar el servidor con cualquier de estos 3 comandos
-~
-npm start
-~
-o
-~
-node server.js
-~
-o
-~
+##LEVANTAMOS EL SERVIDOR CON:
+~~~ 
 npm run dev
-~
-## Link 
-http://localhost:3000/
+~~~
+
+##LINK: http://localhost:300
