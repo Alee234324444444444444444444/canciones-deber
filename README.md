@@ -9,16 +9,20 @@ en la pestaña de canciones reguistradas ahi esta la lista de canciones registra
 LA BD EN MONGO SE LLAMA "musica" 
 
 
-PRIMERO NOS CLONAMOS
+PRIMERO NOS CLONAMOS:
+~
 git clone https://github.com/Alee234324444444444444444444/canciones-deber.git
 
-VAMOS A CD SERVER
+VAMOS A CD SERVER:
+~
 cd .\server\
 
-INSTALAMOS LOS REQUERIMIENTOS 
+INSTALAMOS LOS REQUERIMIENTOS:
+~
 npm install express mongoose cors
 
-LEVANTAMOS EL SERVIDOR CON
+LEVANTAMOS EL SERVIDOR CON:
+~
 npm run dev
 
 
