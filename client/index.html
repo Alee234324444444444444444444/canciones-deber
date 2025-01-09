@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Registrar Canción</title>
+</head>
+
+<body>
+    <!-- Contenedor Principal -->
+    <div class="main-container">
+        
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="registro-canciones">Registro de Canciones</button>
+                <button class="tab-button" data-tab="canciones-registradas">Canciones Registradas</button>
+            </div>
+        </div>
+
+        <!-- Contenedor del Formulario de Registro -->
+        <div class="form-container">
+            <div id="registro-canciones" class="tab-content active">
+                <form id="form-agregar-cancion">
+                    <h1>Registrar Canción</h1>
+                    <input type="text" id="nombre" placeholder="Nombre de la Canción" required>
+                    <input type="text" id="artista" placeholder="Artista de la Canción" required>
+                    <input type="text" id="urlYoutube" placeholder="URL de la Canción" required>
+                    <button type="submit" id="guardar">Guardar Canción</button>
+                    
+                    <button type="button" id="cancion-aleatoria-btn">Canción Aleatoria</button>
+                </form>
+
+                <!-- Contenedor para Mostrar Canciones Aleatorias -->
+                <div class="random-songs-container">
+                    <h2>Canción Aleatoria</h2>
+
+                </div>
+
+                <div class="randoms-songs-container">
+
+                    <div id="random-songs" class="song-grid"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor de Canciones Registradas -->
+        <div class="songs-list-container">
+            <div id="canciones-registradas" class="tab-content">
+                <h2 class="title2"><big>Canciones</big></h2>
+                <div id="lista-canciones" class="song-grid"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
