@@ -9,7 +9,7 @@ git clone https://github.com/Alee234324444444444444444444/canciones-deber.git
 
 VAMOS A CD SERVER:
 ~~~
-cd .\server
+cd .\canciones-deber\server\
 ~~~
 
 INSTALAMOS LOS REQUERIMIENTOS:
